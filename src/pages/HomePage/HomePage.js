@@ -1,9 +1,12 @@
 import React, { Fragment } from 'react';
+import Layout from '../../components/Layout/Layout';
 
 const HomePage = () => {
     return (
         <Fragment>
-            <div>Hello home page</div>
+            <Layout>
+                <div>Hello home page</div>
+            </Layout>
         </Fragment>
     );
 };
