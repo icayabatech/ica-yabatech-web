@@ -1,12 +1,14 @@
-import React from 'react';
-import './App.css';
+import React, { Fragment } from 'react';
+import { Route, Switch, Redirect } from "react-router-dom";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <h2>This site is under construction</h2>
-      <p>Please check back. Thank you!</p>
-    </div>
+    <Fragment>
+      <Switch>
+        <Route path="/" exact component={} />
+        <Redirect to="/" />
+      </Switch>
+    </Fragment>
   );
 }
 
