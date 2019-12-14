@@ -32,8 +32,30 @@
     font-size: 13px;
 }
 
+.mobile .top-nav-btn {
+    background-color: #fff;
+    color: #000;
+    text-transform: uppercase;
+    padding: 10px 30px 10px 30px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.mobile .top-nav-btn:hover {
+    cursor: pointer;
+}
+
 .navContainer .top-nav-btn:hover {
     text-decoration: none;
+}
+
+.toggle {
+    color: #c5c5c5;
+    font-size: 30px;
+}
+
+.toggle:hover {
+    cursor: pointer;
 }
 
 .top-nav {

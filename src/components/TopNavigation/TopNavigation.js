@@ -2,7 +2,6 @@ import React, { Fragment, useState } from 'react';
 import { 
     Collapse, 
     Navbar, 
-    NavbarToggler, 
     NavbarBrand, 
     Nav, 
     NavItem, 
@@ -10,9 +9,11 @@ import {
 } from 'reactstrap';
 import { Link, NavLink as RRNavLink } from "react-router-dom";
 import Logo from '../../assets/images/logo-white.png';
+import { FaBars } from 'react-icons/fa';
 import './TopNavigation.css';
 
 const TopNavigation = () => {
+    
     const [collapsed, setCollapsed] = useState(true);
     const toggleNavbar = () => setCollapsed(!collapsed);
 
@@ -43,16 +44,28 @@ const TopNavigation = () => {
                     </div>
                 </div>
             </nav>
-            <Navbar color="faded" className="d-block d-md-none shadow-lg" light>
+            <Navbar color="faded" className="mobile d-block d-md-none shadow-lg" style={{backgroundColor: '#000',padding: '20px'}}>
                 <NavbarBrand to="/" className="mr-auto">
                     <img src={Logo} alt="ica-yabatech-logo" width="200"/>
                 </NavbarBrand>
-                <NavbarToggler onClick={toggleNavbar} className="mr-2 mt-4 pull-right" />
+                <FaBars onClick={toggleNavbar} className="mr-2 mt-4 pull-right toggle" />
                 <Collapse isOpen={!collapsed} navbar>
                     <Nav navbar>
-                        <NavItem><NavLink  to="/" activeClassName="active" tag={RRNavLink}>Home</NavLink> </NavItem>
-                        <NavItem><NavLink  to="/guest_organization_profile_all-hospital" activeClassName="active" tag={RRNavLink}>Find A Provider</NavLink> </NavItem>
-                        <NavItem><NavLink  to="/guest_policy" activeClassName="active" tag={RRNavLink}>Our Policies</NavLink> </NavItem>
+                        <NavItem style={{borderBottom: '1px solid #fff'}}>
+                            <NavLink 
+                                style={{color: '#fff',textAlign:'center'}} 
+                                to="/" activeClassName="active" tag={RRNavLink}>Home</NavLink> 
+                        </NavItem>
+                        <NavItem style={{borderBottom: '1px solid #fff'}}>
+                            <NavLink style={{color: '#fff',textAlign:'center'}} 
+                                to="/team" activeClassName="active" tag={RRNavLink}>Team</NavLink> 
+                        </NavItem>
+                        <NavItem style={{borderBottom: '1px solid #fff'}}>
+                            <NavLink style={{color: '#fff',textAlign:'center'}} 
+                                to="/members" activeClassName="active" tag={RRNavLink}>Members</NavLink> </NavItem>
+                        <NavItem>
+                            <NavLink to="/register" className="top-nav-btn">Next Event</NavLink>
+                        </NavItem>
                     </Nav>
                 </Collapse>
             </Navbar>
