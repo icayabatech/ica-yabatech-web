@@ -1,0 +1,71 @@
+.photo-card {
+    height: 270px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.185) 0%, rgba(0, 16, 17, 0.89) 100%);
+}
+
+.forth {
+    background-image: url('../../assets/images/destiny_ajakaiye.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.forth .cover {
+    background-color: #000000a1;
+    height: 100%;
+    position: relative;
+}
+
+.forth .cover .content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+.forth .cover .content p, .third .cover .content p, .second .cover .content p {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.content {
+    padding: 20px;
+}
+
+.second {
+    background-image: url('/Rectangle 8.2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.second .cover {
+    background-color: #000000a1;
+    height: 100%;
+    position: relative;
+}
+
+.second .cover .content {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.third {
+    background-image: url('/Rectangle 8.1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.third .cover {
+    background-color: #000000a1;
+    height: 100%;
+    position: relative;
+}
+
+.third .cover .content {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
