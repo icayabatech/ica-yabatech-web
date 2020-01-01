@@ -1,13 +1,30 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useState } from 'react';
+import Slider from "react-slick";
 import Layout from '../../components/Layout/Layout';
 import Icon1 from '../../assets/images/webdev.svg';
 import Icon2 from '../../assets/images/androiddev.svg';
 import Icon3 from '../../assets/images/cloud.svg';
 import Icon4 from '../../assets/images/machine.svg';
-import PhotoCard from '../../components/PhotoCard/PhotoCard.js';
+import { DestinyCard, SegunCard, DanielCard, OpeCard } from '../../components/PhotoCard/Cards';
+import Pic1 from '../../assets/images/pic-1.png';
+import Pic2 from '../../assets/images/pic-2.png';
+import Pic3 from '../../assets/images/pic-3.png';
+import Pic4 from '../../assets/images/pic-4.png';
 import './HomePage.css';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const HomePage = () => {
+    const [settings] = useState({
+        infinite: true,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        autoplay: true,
+        speed: 2000,
+        autoplaySpeed: 2000,
+        cssEase: "linear"
+    });
+
     return (
         <Fragment>
             <Layout>
@@ -23,7 +40,7 @@ const HomePage = () => {
                     </div>
                 </section>
                 <section className="about-section">
-                    <div id="watermark">campus ambassadors</div>
+                    <div id="watermark"></div>
                     <div className="container">
                         <div className="row">
                             <div className="col-md-12 col-lg-12 col-sm-12 col-xs-12" style={{marginBottom: '60px'}}>
@@ -36,7 +53,7 @@ const HomePage = () => {
                                 <p>Our Campus Ambassadors are passionate about building an active community of tech enthusiasts - 
                                 including designers and developers - and are committed to creating a positive experience for members of their community. </p>
                             </div>
-                        </div>
+                        </div><br/>
                         <div className="row">
                             <div className="col-md-6 col-lg-6 col-sm-12 col-xs-12">
                                 <h3>Vision</h3>
@@ -54,13 +71,15 @@ const HomePage = () => {
                     </div>
                 </section>
                 <section className="tech-section">
-                    <div id="watermark-1" style={{marginBottom: '0'}}>technologies</div>
-                    <div className="container text-center">
+                    <div id="watermark-1" style={{marginBottom: 100}}></div>
+                    <div className="container">
                         <div className="row" style={{marginBottom: '40px'}}>
                             <div className="col-md-12 col-lg-12 col-sm-12 col-xs-12">
                                 <h1>Technologies We're Excited About </h1>
                             </div>
                         </div>
+                    </div>
+                    <div className="container text-center">
                         <div className="row">
                             <div className="col-md-3 col-lg-3 col-sm-12 col-xs-12">
                                 <img src={Icon1} alt=""/>
@@ -82,18 +101,54 @@ const HomePage = () => {
                     </div>
                 </section>
                 <section className="team-section">
-                    <div id="watermark-1" style={{marginBottom: '0'}}>ingressive yaba</div>
+                    <div id="watermark-1" style={{marginBottom: 60}}></div>
                     <div className="container">
                         <div className="row" style={{marginBottom: '40px'}}>
                             <div className="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-                                <h1>Team</h1>
+                                <h1>Our Team</h1>
                             </div>
                         </div>
+                    </div>
+                    <div className="container-fluid">
                         <div className="row">
-                            <PhotoCard />
-                            <PhotoCard />
-                            <PhotoCard />
-                            <PhotoCard />
+                            <DestinyCard />
+                            <SegunCard />
+                            <DanielCard />
+                            <OpeCard />
+                        </div>
+                    </div>
+                </section>
+                <section className="join-section text-center">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                                <h6>Passionate about driving success of the program?</h6>
+                                <button type="button" className="btn btn-lg">Join the team</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section className="join-section-2">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+                                <h2>Who can become a member?</h2>
+                                <p>The club is open to any student, ranging from novice develoeprs who are just starting to advance developers who want to further their skills. ICA is open for student to learn
+                                development skills, solve problem through technology and inspire them to become world class Developers.</p>
+                                <button type="button" className="button btn btn-lg">Join the community</button>
+                            </div>
+                            <div className="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+                                <div className="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                                    <div className="slider">
+                                        <Slider {...settings}>
+                                            <div><img src={Pic3} alt="..." /></div>
+                                            <div><img src={Pic1} alt="..." /></div>
+                                            <div><img src={Pic2} alt="..." /></div>
+                                            <div><img src={Pic4} alt="..." /></div>
+                                        </Slider>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </section>

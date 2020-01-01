@@ -24,6 +24,14 @@
     
 }
 
+.active {
+    color: #fff;
+    text-decoration: none;
+    padding-bottom: 8px;
+    border-bottom: 3px solid #fff;
+    
+}
+
 .navContainer .top-nav-btn {
     background-color: #fff;
     color: #000;

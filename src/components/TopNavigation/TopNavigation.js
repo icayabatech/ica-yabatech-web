@@ -29,7 +29,7 @@ const TopNavigation = () => {
                         <ul className="navbar-nav mr-auto mt-2 mt-lg-0"></ul>
                         <ul className="nav navbar-nav navbar-right">
                             <li className="nav-item">
-                                <Link to="/" className={`top-nav-link`}>Home</Link>
+                                <Link to="/" className={`top-nav-link active`}>Home</Link>
                             </li>
                             <li className="nav-item">
                                 <Link to="/team" className={`top-nav-link`}>Team</Link>
