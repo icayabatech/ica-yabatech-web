@@ -45,15 +45,16 @@
 
 .content h4 {
     color: #fff;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     margin-bottom: 5px;
 }
 
 .content p {
-    color: rgb(155, 152, 152);
-    font-size: 10px;
+    color: rgb(179, 177, 177);
+    font-size: 14px !important;
     margin-bottom: 0;
+    text-align: left !important;
 }
 
 .content .social-link {
@@ -61,4 +62,5 @@
     padding: 5px;
     margin-top: 5px;
     display: inline-block;
+    font-size: 15px;
 }

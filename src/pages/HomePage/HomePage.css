@@ -23,17 +23,14 @@
 
 .lead-board .top-h1 {
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 900;
     margin-bottom: 0px;
-    font-size: 4.9vw;
+    font-size: 5.2vw;
     font-family: 'Poppins', sans-serif !important;
     letter-spacing: 0px;
     color: #000;
     text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
 }
-/* h1 {
-    font-size: 5.9vw;
-  } */
 
 .lead-board .top-h1-2 {
     text-transform: uppercase;
@@ -61,22 +58,6 @@
     color: #000;
 }
 
-.about-section span {
-    text-transform: uppercase;
-    color: #000;
-    font-size: 18px;
-    letter-spacing: 3px;
-}
-
-.about-section h1 {
-    font-weight: bold;
-    margin-bottom: 30px;
-    font-size: 3.0vw;
-    font-family: 'Poppins', sans-serif !important;
-    letter-spacing: 0px;
-    color: #000;
-}
-
 .about-section p {
     font-size: 17px;
     line-height: 2;
@@ -86,9 +67,9 @@
 }
 
 .about-section h3 {
-    font-weight: bold;
+    font-weight: 900;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 23px;
     margin-bottom: 0;
 }
 
@@ -102,17 +83,7 @@
 
 .tech-section {
     background-color: #fff;
-    padding: 0px 0px 50px 0px;
-    color: #000;
-}
-
-.tech-section h1 {
-    font-weight: bold;
-    margin-bottom: 30px;
-    margin-top: 0;
-    font-size: 3.0vw;
-    font-family: 'Poppins', sans-serif !important;
-    letter-spacing: 0px;
+    padding: 0px 0px 80px 0px;
     color: #000;
 }
 
@@ -128,46 +99,16 @@
     color: #000;
 }
 
-.team-section h1 {
+.tech-section p {
     font-weight: bold;
-    margin-bottom: 30px;
-    margin-top: 0;
-    font-size: 3.0vw;
-    font-family: 'Poppins', sans-serif !important;
-    letter-spacing: 0px;
-    color: #000;
-}
-
-#watermark {
-    text-transform: uppercase;
-    bottom:5px;
-    right:5px;
-    opacity:0.5;
-    font-size: 7.2vw;
-    z-index:99;
-    color: #fff;
-    text-align: center;
-    margin-bottom: 60px;
-    text-shadow: 1px 0 0 #c5c5c5, -1px 0 0 #c5c5c5, 0 2px 0 #c5c5c5, 0 -2px 0 #c5c5c5, 1px 1px #c5c5c5, -1px -1px 0 #c5c5c5, 1px -1px 0 #c5c5c5, -1px 1px 0 #c5c5c5;
-}
-
-#watermark-1 {
-    /* position:fixed; */
-    text-transform: uppercase;
-    bottom:5px;
-    right:5px;
-    opacity:0.5;
-    font-size: 10.2vw;
-    z-index:99;
-    color: #fff;
-    text-align: center;
-    text-shadow: 1px 0 0 #c5c5c5, -1px 0 0 #c5c5c5, 0 2px 0 #c5c5c5, 0 -2px 0 #c5c5c5, 1px 1px #c5c5c5, -1px -1px 0 #c5c5c5, 1px -1px 0 #c5c5c5, -1px 1px 0 #c5c5c5;
+    font-size: 18px;
 }
 
 .join-section {
     background-color: #fff;
     padding: 80px 0px 80px 0px;
     color: #000;
+    background-image: url('../../assets/images/passionate.svg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -177,7 +118,7 @@
     font-weight: bold;
     margin-bottom: 20px;
     margin-top: 0;
-    font-size: 1.5vw;
+    font-size: 2.0vw;
     font-family: 'Poppins', sans-serif !important;
     letter-spacing: 0px;
     color: #000;
@@ -239,6 +180,87 @@
     margin-top: 40px;
 }
 
+#watermark-1 {
+    background-image: url('../../assets/images/campus_amb.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 120px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.about-section #watermark-1 span {
+    text-transform: uppercase;
+    color: #000;
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+
+.about-section #watermark-1 h1 {
+    font-weight: 900;
+    margin-bottom: 30px;
+    font-size: 3.2vw;
+    font-family: 'Poppins', sans-serif !important;
+    letter-spacing: 0px;
+    color: #000;
+    position: absolute;
+    bottom: -2;
+}
+
+#watermark-2 {
+    background-image: url('../../assets/images/technologies.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 120px;
+    padding: 30px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.tech-section #watermark-2 h1 {
+    font-weight: 900;
+    margin-top: 0;
+    font-size: 3.2vw;
+    font-family: 'Poppins', sans-serif !important;
+    letter-spacing: 0px;
+    color: #000;
+    position: absolute;
+    bottom: -2;
+    top: 0;
+}
+
+
+#watermark-3 {
+    background-image: url('../../assets/images/ingressive_yct.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 30px;
+    height: 130px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.team-section #watermark-3 h1 {
+    font-weight: 900;
+    margin-top: 0;
+    font-size: 3.2vw;
+    font-family: 'Poppins', sans-serif !important;
+    letter-spacing: 0px;
+    color: #000;
+    position: absolute;
+    bottom: -1;
+    top: 0;
+}
+
 /* On screens that are 600px or less */
 @media (min-width: 320px) and (max-width: 767px){
     .lead-board {
@@ -298,6 +320,7 @@
         color: #000;
         font-size: 18px;
         letter-spacing: 3px;
+        text-align: left !important;
     }
     
     .about-section h1 {
@@ -415,5 +438,81 @@
         line-height: 2;
         font-family: 'Poppins', sans-serif !important;
         text-align: justify;
+    }
+
+    #watermark-1 {
+        background-image: url('../../assets/images/campus_amb.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 120px;
+        display: flex;
+        align-items: flex-end;
+    }
+    
+    .about-section #watermark-1 span {
+        text-transform: uppercase;
+        color: #000;
+        font-size: 18px;
+        letter-spacing: 3px;
+    }
+    
+    .about-section #watermark-1 h1 {
+        font-weight: 900;
+        margin-bottom: 30px;
+        font-size: 30px;
+        font-family: 'Poppins', sans-serif !important;
+        letter-spacing: 0px;
+        color: #000;
+        position: absolute;
+        bottom: -2;
+    }
+    
+    #watermark-2 {
+        background-image: url('../../assets/images/technologies.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 120px;
+        margin-top: 50px;
+        display: flex;
+        align-items: flex-end;
+    }
+    
+    .tech-section #watermark-2 h1 {
+        font-weight: 900;
+        margin-top: 0;
+        font-size: 30px;
+        font-family: 'Poppins', sans-serif !important;
+        letter-spacing: 0px;
+        color: #000;
+        position: absolute;
+        bottom: -2;
+        top: 0;
+    }
+    
+    
+    #watermark-3 {
+        background-image: url('../../assets/images/ingressive_yct.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 130px;
+        margin-top: 50px;
+        margin-bottom: 80px;
+        display: flex;
+        align-items: flex-end;
+    }
+    
+    .team-section #watermark-3 h1 {
+        font-weight: 900;
+        margin-top: 0;
+        font-size: 40px;
+        font-family: 'Poppins', sans-serif !important;
+        letter-spacing: 0px;
+        color: #000;
+        position: absolute;
+        bottom: -1;
+        top: 0;
     }
 }

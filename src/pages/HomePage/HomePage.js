@@ -40,12 +40,19 @@ const HomePage = () => {
                     </div>
                 </section>
                 <section className="about-section">
-                    <div id="watermark"></div>
+                    <div id="watermark-1">
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                                    <span>Ingressive</span>
+                                    <h1>Campus Ambassadors </h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div className="container">
                         <div className="row">
                             <div className="col-md-12 col-lg-12 col-sm-12 col-xs-12" style={{marginBottom: '60px'}}>
-                                <span>Ingressive</span>
-                                <h1>Campus Ambassadors </h1>
                                 <p>The Ingressive Campus Ambassador (ICA) program offers a unique opportunity for students in 
                                 tertiary institutions in Africa to contribute to the growth and development of the African tech ecosystem. </p>
                                 <p>ICA is a platform for growth and development of future CTOs, founders and CEOs, to learn from industry subject matter experts, share knowledge, network, build the community 
@@ -71,15 +78,16 @@ const HomePage = () => {
                     </div>
                 </section>
                 <section className="tech-section">
-                    <div id="watermark-1" style={{marginBottom: 100}}></div>
-                    <div className="container">
-                        <div className="row" style={{marginBottom: '40px'}}>
-                            <div className="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-                                <h1>Technologies We're Excited About </h1>
+                    <div id="watermark-2">
+                        <div className="container">
+                            <div className="row" style={{marginBottom: '40px'}}>
+                                <div className="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                                    <h1>Technologies We're Excited About </h1>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div className="container text-center">
+                    <div className="container-fluid text-center">
                         <div className="row">
                             <div className="col-md-3 col-lg-3 col-sm-12 col-xs-12">
                                 <img src={Icon1} alt=""/>
@@ -101,11 +109,12 @@ const HomePage = () => {
                     </div>
                 </section>
                 <section className="team-section">
-                    <div id="watermark-1" style={{marginBottom: 60}}></div>
-                    <div className="container">
-                        <div className="row" style={{marginBottom: '40px'}}>
-                            <div className="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-                                <h1>Our Team</h1>
+                    <div id="watermark-3">
+                        <div className="container">
+                            <div className="row" style={{marginBottom: '40px'}}>
+                                <div className="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                                    <h1>Our Team</h1>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -135,7 +144,7 @@ const HomePage = () => {
                                 <h2>Who can become a member?</h2>
                                 <p>The club is open to any student, ranging from novice develoeprs who are just starting to advance developers who want to further their skills. ICA is open for student to learn
                                 development skills, solve problem through technology and inspire them to become world class Developers.</p>
-                                <button type="button" className="button btn btn-lg">Join the community</button>
+                                <br/><button type="button" className="button btn btn-lg">Join the community</button>
                             </div>
                             <div className="col-md-6 col-lg-6 col-sm-12 col-xs-12">
                                 <div className="col-md-12 col-lg-12 col-sm-12 col-xs-12">

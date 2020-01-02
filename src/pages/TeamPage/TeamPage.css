@@ -1,0 +1,118 @@
+#watermark {
+    background-image: url('../../assets/images/campus_amb.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 120px;
+    display: flex;
+    align-items: flex-end;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#watermark h1 {
+    font-weight: 900;
+    margin-bottom: 30px;
+    font-size: 2.8vw;
+    font-family: 'Poppins', sans-serif !important;
+    letter-spacing: 0px;
+    color: #000;
+    position: absolute;
+    bottom: -2;
+}
+
+#content {
+    padding-top: 50px;
+}
+
+.join-section {
+    background-color: #fff;
+    padding: 80px 0px 80px 0px;
+    color: #000;
+    background-image: url('../../assets/images/passionate.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.join-section h6 {
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 0;
+    font-size: 2.0vw;
+    font-family: 'Poppins', sans-serif !important;
+    letter-spacing: 0px;
+    color: #000;
+}
+
+.join-section button {
+    background-color: #000;
+    border: 0;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 15px 50px 15px 50px;
+    border-radius: 0;
+    font-size: 15px;
+}
+
+.join-section button:hover {
+    color: #fff;
+}
+
+@media (min-width: 320px) and (max-width: 767px){
+    #watermark {
+        background-image: url('../../assets/images/campus_amb.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 120px;
+        display: flex;
+        align-items: flex-end;
+        margin-top: 30px;
+    }
+    
+    #watermark h1 {
+        font-weight: 900;
+        margin-bottom: 30px;
+        font-size: 30px;
+        font-family: 'Poppins', sans-serif !important;
+        letter-spacing: 0px;
+        color: #000;
+        position: absolute;
+        bottom: -2;
+    }
+
+    .join-section {
+        background-color: #fff;
+        padding: 80px 0px 80px 0px;
+        color: #000;
+        background-image: url('../../assets/images/passionate.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    .join-section h6 {
+        font-weight: bold;
+        margin-bottom: 20px;
+        margin-top: 0;
+        font-size: 25px;
+        font-family: 'Poppins', sans-serif !important;
+        letter-spacing: 0px;
+        color: #000;
+    }
+    
+    .join-section button {
+        background-color: #000;
+        border: 0;
+        color: #fff;
+        text-transform: uppercase;
+        padding: 15px 50px 15px 50px;
+        border-radius: 0;
+        font-size: 15px;
+    }
+    
+    .join-section button:hover {
+        color: #fff;
+    }
+}
