@@ -1,4 +1,4 @@
-#team-page #watermark {
+#members-page #watermark {
     background-image: url('../../assets/images/campus_amb.svg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -10,7 +10,7 @@
     margin-bottom: 50px;
 }
 
-#team-page #watermark h1 {
+#members-page #watermark h1 {
     font-weight: 900;
     margin-bottom: 30px;
     font-size: 2.8vw;
@@ -21,11 +21,11 @@
     bottom: -2;
 }
 
-#team-page #content {
+#members-page #content {
     padding-top: 50px;
 }
 
-#team-page .join-section {
+#members-page .join-section {
     background-color: #fff;
     padding: 80px 0px 80px 0px;
     color: #000;
@@ -35,7 +35,7 @@
     background-position: center;
 }
 
-#team-page .join-section h6 {
+#members-page .join-section h6 {
     font-weight: bold;
     margin-bottom: 20px;
     margin-top: 0;
@@ -45,7 +45,7 @@
     color: #000;
 }
 
-#team-page .join-section button {
+#members-page .join-section button {
     background-color: #000;
     border: 0;
     color: #fff;
@@ -55,12 +55,12 @@
     font-size: 15px;
 }
 
-#team-page .join-section button:hover {
+#members-page .join-section button:hover {
     color: #fff;
 }
 
 @media (min-width: 320px) and (max-width: 767px){
-    #team-page #watermark {
+    #members-page #watermark {
         background-image: url('../../assets/images/campus_amb.svg');
         background-size: cover;
         background-repeat: no-repeat;
@@ -71,7 +71,7 @@
         margin-top: 30px;
     }
     
-    #team-page #watermark h1 {
+    #members-page #watermark h1 {
         font-weight: 900;
         margin-bottom: 30px;
         font-size: 30px;
@@ -82,7 +82,7 @@
         bottom: -2;
     }
 
-    #team-page .join-section {
+    #members-page .join-section {
         background-color: #fff;
         padding: 80px 0px 80px 0px;
         color: #000;
@@ -92,7 +92,7 @@
         background-position: center;
     }
     
-    #team-page .join-section h6 {
+    #members-page .join-section h6 {
         font-weight: bold;
         margin-bottom: 20px;
         margin-top: 0;
@@ -102,7 +102,7 @@
         color: #000;
     }
     
-    #team-page .join-section button {
+    #members-page .join-section button {
         background-color: #000;
         border: 0;
         color: #fff;
@@ -112,7 +112,7 @@
         font-size: 15px;
     }
     
-    #team-page .join-section button:hover {
+    #members-page .join-section button:hover {
         color: #fff;
     }
 }

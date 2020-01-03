@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from 'react';
+import React, { Fragment, useState, useEffect } from 'react';
 import { 
     Collapse, 
     Navbar, 
@@ -12,10 +12,15 @@ import Logo from '../../assets/images/logo-white.png';
 import { FaBars } from 'react-icons/fa';
 import './TopNavigation.css';
 
-const TopNavigation = () => {
+const TopNavigation = (props) => {
     
     const [collapsed, setCollapsed] = useState(true);
+    const [activeMenu, setActiveMenu] = useState("")
     const toggleNavbar = () => setCollapsed(!collapsed);
+
+    useEffect(() => {
+        setActiveMenu(props.activeMenu)
+    }, [props.activeMenu]);
 
     return (
         <Fragment>
@@ -29,16 +34,16 @@ const TopNavigation = () => {
                         <ul className="navbar-nav mr-auto mt-2 mt-lg-0"></ul>
                         <ul className="nav navbar-nav navbar-right">
                             <li className="nav-item">
-                                <Link to="/" className={`top-nav-link active`}>Home</Link>
+                                <Link to="/" className={`top-nav-link ${activeMenu === "home" ? 'active' : ''}`}>Home</Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="/team" className={`top-nav-link`}>Team</Link>
+                                <Link to="/team" className={`top-nav-link ${activeMenu === "team" ? 'active' : ''}`}>Team</Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="/members" className={`top-nav-link `}>Members</Link>
+                                <Link to="/members" className={`top-nav-link ${activeMenu === "members" ? 'active' : ''}`}>Members</Link>
                             </li>
                             <li className="nav-item" >
-                                <Link to="/register" className="top-nav-btn">Next Event</Link>
+                                <Link to="/events" className="top-nav-btn">Next Event</Link>
                             </li>
                         </ul>
                     </div>

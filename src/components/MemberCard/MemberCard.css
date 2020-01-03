@@ -1,0 +1,76 @@
+#member-card h4 {
+    color: #000;
+    font-size: 14px !important;
+    font-weight: bold !important;
+    margin-top: 10px !important;
+    margin-bottom: 2px !important;
+    text-align: center !important;
+}
+
+#member-card .img {
+    width: 130px !important;
+    height: 130px !important;
+    border-radius: 100%;
+}
+
+#member-card p {
+    color: rgba(0, 0, 0, 0.801);
+    font-size: 12px;
+    margin-bottom: 0 !important;
+    text-align: center !important;
+}
+
+#member-card span {
+    display: block !important;
+    text-align: center !important;
+}
+
+#member-card span .social-link {
+    color: #000 !important;
+    padding: 5px !important;
+    display: inline-block !important;
+    text-align: center !important;
+    font-size: 13px;
+}
+
+#member-card span .social-link:hover {
+    color: #000 !important;
+}
+
+@media (min-width: 320px) and (max-width: 767px){
+    #member-card .img {
+        width: 200px !important;
+        height: 200px !important;
+        text-align: center;
+    }
+
+    #member-card p {
+        text-align: center;
+    }
+
+    #member-card .h4 {
+        color: #000;
+        font-size: 18px !important;
+        font-weight: bold !important;
+        margin-top: 10px !important;
+        margin-bottom: 2px !important;
+        text-align: center;
+    }
+
+    #member-card span {
+        text-align: center !important;
+        display: block !important;
+    }
+
+    #member-card span .social-link {
+        color: #000 !important;
+        padding: 5px !important;
+        display: inline-block !important;
+        text-align: center !important;
+        display: inline-block !important;
+    }
+    
+    #member-card span .social-link:hover {
+        color: #000 !important;
+    }
+}

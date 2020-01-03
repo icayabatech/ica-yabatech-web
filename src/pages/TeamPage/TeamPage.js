@@ -2,19 +2,22 @@ import React from 'react';
 import Layout from '../../components/Layout/Layout';
 import TeamCard from '../../components/TeamCard/TeamCard';
 import Img1 from '../../assets/images/destiny_ajakaiye.jpeg';
+import ScrollAnimation from 'react-animate-on-scroll';
 import Img2 from '../../assets/images/segun.png';
 import Img3 from '../../assets/images/daniel.png';
 import './TeamPage.css';
 
 const TeamPage = () => {
     return(
-        <Layout>
-            <section className="team-page">
+        <Layout activeMenu="team">
+            <section id="team-page">
                 <div id="watermark">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12 col-sm-12 col-xs-12">
-                                <h1>Our Team Members</h1>
+                                <ScrollAnimation animateIn='flipInY' animateOut='flipOutY'>
+                                    <h1>Our Team Members</h1>
+                                </ScrollAnimation>
                             </div>
                         </div>
                     </div>
@@ -70,7 +73,9 @@ const TeamPage = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-                            <h6>Passionate about driving success of the program?</h6>
+                            <ScrollAnimation animateIn='flipInY' animateOut='flipOutY'>
+                                <h6>Passionate about driving success of the program?</h6>
+                            </ScrollAnimation>
                             <button type="button" className="btn btn-lg">Join the team</button>
                         </div>
                     </div>

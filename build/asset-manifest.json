@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.5a003aef.chunk.css",
-    "main.js": "/static/js/main.5700a89c.chunk.js",
-    "main.js.map": "/static/js/main.5700a89c.chunk.js.map",
+    "main.css": "/static/css/main.874ce6b7.chunk.css",
+    "main.js": "/static/js/main.9b4d53c9.chunk.js",
+    "main.js.map": "/static/js/main.9b4d53c9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b51554c7.js",
     "runtime-main.js.map": "/static/js/runtime-main.b51554c7.js.map",
-    "static/css/2.5fa6fcc4.chunk.css": "/static/css/2.5fa6fcc4.chunk.css",
-    "static/js/2.f3030170.chunk.js": "/static/js/2.f3030170.chunk.js",
-    "static/js/2.f3030170.chunk.js.map": "/static/js/2.f3030170.chunk.js.map",
+    "static/css/2.8d070772.chunk.css": "/static/css/2.8d070772.chunk.css",
+    "static/js/2.6ba7abd7.chunk.js": "/static/js/2.6ba7abd7.chunk.js",
+    "static/js/2.6ba7abd7.chunk.js.map": "/static/js/2.6ba7abd7.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.5b24821396432490cba4c46d6fea7087.js": "/precache-manifest.5b24821396432490cba4c46d6fea7087.js",
+    "precache-manifest.84535a9747874882034de59715917508.js": "/precache-manifest.84535a9747874882034de59715917508.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.5fa6fcc4.chunk.css.map": "/static/css/2.5fa6fcc4.chunk.css.map",
-    "static/css/main.5a003aef.chunk.css.map": "/static/css/main.5a003aef.chunk.css.map",
-    "static/js/2.f3030170.chunk.js.LICENSE": "/static/js/2.f3030170.chunk.js.LICENSE",
+    "static/css/2.8d070772.chunk.css.map": "/static/css/2.8d070772.chunk.css.map",
+    "static/css/main.874ce6b7.chunk.css.map": "/static/css/main.874ce6b7.chunk.css.map",
+    "static/js/2.6ba7abd7.chunk.js.LICENSE": "/static/js/2.6ba7abd7.chunk.js.LICENSE",
     "static/media/androiddev.svg": "/static/media/androiddev.2941e138.svg",
-    "static/media/TeamPage.css": "/static/media/passionate.6b300e0b.svg",
+    "static/media/MemberPage.css": "/static/media/passionate.6b300e0b.svg",
     "static/media/cloud.svg": "/static/media/cloud.4c74bc40.svg",
     "static/media/PhotoCard.css": "/static/media/segun.231a2eb0.png",
     "static/media/HomePage.css": "/static/media/technologies.2064142e.svg",
@@ -30,9 +30,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.b51554c7.js",
-    "static/css/2.5fa6fcc4.chunk.css",
-    "static/js/2.f3030170.chunk.js",
-    "static/css/main.5a003aef.chunk.css",
-    "static/js/main.5700a89c.chunk.js"
+    "static/css/2.8d070772.chunk.css",
+    "static/js/2.6ba7abd7.chunk.js",
+    "static/css/main.874ce6b7.chunk.css",
+    "static/js/main.9b4d53c9.chunk.js"
   ]
 }
