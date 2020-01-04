@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Layout from '../../components/Layout/Layout';
+import { Link } from 'react-router-dom';
 import MemberCard from '../../components/MemberCard/MemberCard';
 import Img1 from '../../assets/images/avatar.png';
 import ScrollAnimation from 'react-animate-on-scroll';
@@ -47,7 +48,9 @@ const MemberPage = () => {
                                 <ScrollAnimation animateIn='flipInX'>
                                     <h6>Passionate about moving your tech dream <br/> to the next level?</h6>
                                 </ScrollAnimation>
-                                <button type="button" className="btn btn-lg">Become a Member</button>
+                                <Link to="/members-registration">
+                                    <button type="button" className="btn btn-lg">Become a Member</button>
+                                </Link>
                             </div>
                         </div>
                     </div>

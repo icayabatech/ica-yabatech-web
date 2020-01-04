@@ -4,6 +4,7 @@ import HomePage from './pages/HomePage/HomePage';
 import TeamPage from './pages/TeamPage/TeamPage';
 import MemberPage from './pages/MemberPage/MemberPage';
 import EventPage from './pages/EventsPage/EventsPage';
+import MemberRegistration from './pages/MemberRegistration/MemberRegistration';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Route path="/team" component={TeamPage} />
         <Route path="/members" component={MemberPage} />
         <Route path="/events" component={EventPage} />
+        <Route path="/members-registration" component={MemberRegistration} />
         <Redirect to="/" />
       </Switch>
     </Fragment>
