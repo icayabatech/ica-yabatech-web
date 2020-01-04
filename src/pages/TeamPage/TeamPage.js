@@ -5,6 +5,7 @@ import Img1 from '../../assets/images/destiny_ajakaiye.jpeg';
 import ScrollAnimation from 'react-animate-on-scroll';
 import Img2 from '../../assets/images/segun.png';
 import Img3 from '../../assets/images/daniel.png';
+import Img4 from '../../assets/images/avatar.png'
 import './TeamPage.css';
 
 const TeamPage = () => {
@@ -15,7 +16,7 @@ const TeamPage = () => {
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12 col-sm-12 col-xs-12">
-                                <ScrollAnimation animateIn='flipInY' animateOut='flipOutY'>
+                                <ScrollAnimation animateIn='flipInX'>
                                     <h1>Our Team Members</h1>
                                 </ScrollAnimation>
                             </div>
@@ -56,7 +57,7 @@ const TeamPage = () => {
                                 }}
                             />
                             <TeamCard 
-                                image={Img1} 
+                                image={Img4} 
                                 name="Adeniran Opeyemi" 
                                 position="UI/UX Designer"
                                 portfolio={{
@@ -73,7 +74,7 @@ const TeamPage = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-                            <ScrollAnimation animateIn='flipInY' animateOut='flipOutY'>
+                            <ScrollAnimation animateIn='flipInX'>
                                 <h6>Passionate about driving success of the program?</h6>
                             </ScrollAnimation>
                             <button type="button" className="btn btn-lg">Join the team</button>

@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e569e7f021da922672f6e805efc25979",
+    "revision": "8506f0c223a4630b3e12d2d58e316f3d",
     "url": "/index.html"
   },
   {
-    "revision": "c9a635ea690ef1155cc4",
+    "revision": "be0f4fc9e06d890fb17d",
     "url": "/static/css/2.8d070772.chunk.css"
   },
   {
-    "revision": "95b94135ac4352cff9b5",
-    "url": "/static/css/main.37db4687.chunk.css"
+    "revision": "9a09d01ea10408ed54a6",
+    "url": "/static/css/main.0ae11fb4.chunk.css"
   },
   {
-    "revision": "c9a635ea690ef1155cc4",
-    "url": "/static/js/2.cdcd0480.chunk.js"
+    "revision": "be0f4fc9e06d890fb17d",
+    "url": "/static/js/2.6e242848.chunk.js"
   },
   {
     "revision": "86afaa925e0f432774bf95b19b6933fb",
-    "url": "/static/js/2.cdcd0480.chunk.js.LICENSE"
+    "url": "/static/js/2.6e242848.chunk.js.LICENSE"
   },
   {
-    "revision": "95b94135ac4352cff9b5",
-    "url": "/static/js/main.800e915a.chunk.js"
+    "revision": "9a09d01ea10408ed54a6",
+    "url": "/static/js/main.480a0976.chunk.js"
   },
   {
     "revision": "882abaccd737f5494fc9",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2941e13875d599a90f864a8b4482112b",
     "url": "/static/media/androiddev.2941e138.svg"
+  },
+  {
+    "revision": "2a42d7b274bb96d8cc0976555277bea8",
+    "url": "/static/media/avatar.2a42d7b2.png"
   },
   {
     "revision": "d1a09668a1670451452ec5e939e0edf2",

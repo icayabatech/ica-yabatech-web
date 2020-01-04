@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import Layout from '../../components/Layout/Layout';
 import MemberCard from '../../components/MemberCard/MemberCard';
-import Img1 from '../../assets/images/destiny_ajakaiye.jpeg';
+import Img1 from '../../assets/images/avatar.png';
 import ScrollAnimation from 'react-animate-on-scroll';
 import './MemberPage.css';
 
 const MemberPage = () => {
-    const [members] = useState([1,2,3,4,5,6,7,8,9,0,11,12]);
+    const [members] = useState([1,2,3,4,5,6]);
 
     return(
         <Layout activeMenu="members">
@@ -15,7 +15,7 @@ const MemberPage = () => {
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12 col-sm-12 col-xs-12">
-                                <ScrollAnimation animateIn='flipInY' animateOut='flipOutY'>
+                                <ScrollAnimation animateIn='flipInX'>
                                     <h1>Our Members</h1>
                                 </ScrollAnimation>
                             </div>
@@ -28,7 +28,7 @@ const MemberPage = () => {
                             {members.map(member => (
                                 <MemberCard 
                                     image={Img1} 
-                                    name="Destiny Ajakaiye" 
+                                    name="John Doe" 
                                     position="Software Developer"
                                     portfolio={{
                                         twitter: 'https://twitter.com',
@@ -44,7 +44,7 @@ const MemberPage = () => {
                     <div className="container">
                         <div className="row">
                             <div className="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-                                <ScrollAnimation animateIn='flipInY' animateOut='flipOutY'>
+                                <ScrollAnimation animateIn='flipInX'>
                                     <h6>Passionate about moving your tech dream <br/> to the next level?</h6>
                                 </ScrollAnimation>
                                 <button type="button" className="btn btn-lg">Become a Member</button>

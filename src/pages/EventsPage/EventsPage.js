@@ -32,7 +32,7 @@ const EventsPage = () => {
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12 col-sm-12 col-xs-12">
-                                <ScrollAnimation animateIn='flipInY' animateOut='flipOutY'>
+                                <ScrollAnimation animateIn='flipInX'>
                                     <h1>Next Event</h1>
                                 </ScrollAnimation>
                             </div>
@@ -62,7 +62,7 @@ const EventsPage = () => {
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12 col-sm-12 col-xs-12">
-                                <ScrollAnimation animateIn='flipInY' animateOut='flipOutY'>
+                                <ScrollAnimation animateIn='flipInX'>
                                     <h1>Past Event</h1>
                                 </ScrollAnimation>
                             </div>

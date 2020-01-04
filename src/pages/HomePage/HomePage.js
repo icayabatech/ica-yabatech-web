@@ -50,7 +50,7 @@ const HomePage = () => {
                     <div className="container">
                         <div className="row">
                             <div className="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-                                <ScrollAnimation animateIn='flipInY' animateOut='flipOutY'>
+                                <ScrollAnimation animateIn='flipInX'>
                                     <span>Ingressive</span>
                                     <h1>Campus Ambassadors </h1>
                                 </ScrollAnimation>
@@ -71,20 +71,16 @@ const HomePage = () => {
                     </div><br/>
                     <div className="row">
                         <div className="col-md-6 col-lg-6 col-sm-12 col-xs-12">
-                            <ScrollAnimation animateIn='flipInX'>
-                                <h3>Vision</h3>
-                                <span className="hoz-line"></span>
-                                <p>Our Campus Ambassadors are passionate about building an active community of tech enthusiasts - 
-                                including designers and developers - and are committed to creating a positive experience for members of their community.</p>
-                            </ScrollAnimation>
+                            <h3>Vision</h3>
+                            <span className="hoz-line"></span>
+                            <p>Our Campus Ambassadors are passionate about building an active community of tech enthusiasts - 
+                            including designers and developers - and are committed to creating a positive experience for members of their community.</p>
                         </div>
                         <div className="col-md-6 col-lg-6 col-sm-12 col-xs-12">
-                            <ScrollAnimation animateIn='flipInX'>
-                                <h3>Mission</h3>
-                                <span className="hoz-line"></span>
-                                <p>Our Campus Ambassadors are passionate about building an active community of tech enthusiasts - 
-                                including designers and developers - and are committed to creating a positive experience for members of their community.</p>
-                            </ScrollAnimation>
+                            <h3>Mission</h3>
+                            <span className="hoz-line"></span>
+                            <p>Our Campus Ambassadors are passionate about building an active community of tech enthusiasts - 
+                            including designers and developers - and are committed to creating a positive experience for members of their community.</p>
                         </div>
                     </div>
                 </div>
@@ -94,7 +90,7 @@ const HomePage = () => {
                     <div className="container">
                         <div className="row" style={{marginBottom: '40px'}}>
                             <div className="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-                                <ScrollAnimation animateIn='flipInY' animateOut='flipOutY'>
+                                <ScrollAnimation animateIn='flipInX'>
                                     <h1>Technologies We're Excited About </h1>
                                 </ScrollAnimation>
                             </div>
@@ -127,7 +123,7 @@ const HomePage = () => {
                     <div className="container">
                         <div className="row" style={{marginBottom: '40px'}}>
                             <div className="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-                                <ScrollAnimation animateIn='flipInY' animateOut='flipOutY'>
+                                <ScrollAnimation animateIn='flipInX'>
                                     <h1>Our Team</h1>
                                 </ScrollAnimation>
                             </div>
@@ -147,7 +143,7 @@ const HomePage = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-                            <ScrollAnimation animateIn='bounceInLeft' animateOut='bounceOutRight'>
+                            <ScrollAnimation animateIn='flipInX'>
                                 <h6>Passionate about driving success of the program?</h6>
                             </ScrollAnimation>
                             <button type="button" className="btn btn-lg">Join the team</button>
