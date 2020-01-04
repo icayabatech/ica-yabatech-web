@@ -26,10 +26,10 @@
     font-weight: 900;
     margin-bottom: 0px;
     font-size: 5.2vw;
-    font-family: 'Poppins', sans-serif !important;
+    font-family: 'Montserrat' sans-serif;
     letter-spacing: 0px;
     color: #000;
-    -webkit-text-stroke: 3px white;
+    -webkit-text-stroke: 2px white;
 }
 
 .lead-board .top-h1-2 {
@@ -38,7 +38,7 @@
     font-weight: bold;
     font-size: 5em;
     letter-spacing: 0;
-    font-family: 'Poppins', sans-serif !important;
+    font-family: 'Montserrat' sans-serif;
     color: #fff;
 }
 
@@ -61,7 +61,7 @@
 .about-section p {
     font-size: 17px;
     line-height: 2;
-    font-family: 'Poppins', sans-serif !important;
+    font-family: 'Montserrat' sans-serif;
     color: #000;
     text-align: justify;
 }
@@ -119,7 +119,7 @@
     margin-bottom: 20px;
     margin-top: 0;
     font-size: 2.0vw;
-    font-family: 'Poppins', sans-serif !important;
+    font-family: 'Montserrat' sans-serif;
     letter-spacing: 0px;
     color: #000;
 }
@@ -153,7 +153,7 @@
     margin-bottom: 20px;
     margin-top: 0;
     font-size: 2.0vw;
-    font-family: 'Poppins', sans-serif !important;
+    font-family: 'Montserrat' sans-serif;
     letter-spacing: 0px;
     color: #fff;
 }
@@ -162,7 +162,7 @@
     color: rgb(165, 165, 165);
     font-size: 15px;
     line-height: 2;
-    font-family: 'Poppins', sans-serif !important;
+    font-family: 'Montserrat' sans-serif;
     text-align: justify;
 }
 
@@ -203,7 +203,7 @@
     font-weight: 900;
     margin-bottom: 30px;
     font-size: 3.2vw;
-    font-family: 'Poppins', sans-serif !important;
+    font-family: 'Montserrat' sans-serif;
     letter-spacing: 0px;
     color: #000;
     position: absolute;
@@ -227,7 +227,7 @@
     font-weight: 900;
     margin-top: 0;
     font-size: 3.2vw;
-    font-family: 'Poppins', sans-serif !important;
+    font-family: 'Montserrat' sans-serif;
     letter-spacing: 0px;
     color: #000;
     position: absolute;
@@ -253,7 +253,7 @@
     font-weight: 900;
     margin-top: 0;
     font-size: 3.2vw;
-    font-family: 'Poppins', sans-serif !important;
+    font-family: 'Montserrat' sans-serif;
     letter-spacing: 0px;
     color: #000;
     position: absolute;
@@ -283,14 +283,14 @@
         font-weight: bold;
         margin-bottom: 0px;
         font-size: 2.0em;
-        font-family: 'Poppins', sans-serif !important;
+        font-family: 'Montserrat' sans-serif;
         letter-spacing: 0px;
         color: #000;
-        -webkit-text-stroke: 3px white;    
+        -webkit-text-stroke: 1px white;    
     }
     
     .lead-board .top-h1-2 {
-        font-family: 'Poppins', sans-serif !important;
+        font-family: 'Montserrat' sans-serif;
         text-transform: uppercase;
         margin-top: 0px;
         font-weight: bold;
@@ -327,7 +327,7 @@
         font-weight: bold;
         margin-bottom: 30px;
         font-size: 25px;
-        font-family: 'Poppins', sans-serif !important;
+        font-family: 'Montserrat' sans-serif;
         letter-spacing: 0px;
         color: #000;
     }
@@ -335,7 +335,7 @@
     .about-section p {
         font-size: 15px;
         line-height: 2;
-        font-family: 'Poppins', sans-serif !important;
+        font-family: 'Montserrat' sans-serif;
         color: #000;
         text-align: justify;
     }
@@ -367,7 +367,7 @@
         line-height: 1.5;
         margin-top: 0;
         font-size: 30px;
-        font-family: 'Poppins', sans-serif !important;
+        font-family: 'Montserrat' sans-serif;
         letter-spacing: 0px;
         color: #000;
         text-align: center;
@@ -395,7 +395,7 @@
         margin-bottom: 30px;
         margin-top: 0;
         font-size: 30px;
-        font-family: 'Poppins', sans-serif !important;
+        font-family: 'Montserrat' sans-serif;
         letter-spacing: 0px;
         color: #000;
         text-align: center;
@@ -406,7 +406,7 @@
         margin-bottom: 20px;
         margin-top: 0;
         font-size: 22px;
-        font-family: 'Poppins', sans-serif !important;
+        font-family: 'Montserrat' sans-serif;
         letter-spacing: 0px;
         color: #000;
         text-align: center;
@@ -427,7 +427,7 @@
         margin-bottom: 20px;
         margin-top: 0;
         font-size: 20px;
-        font-family: 'Poppins', sans-serif !important;
+        font-family: 'Montserrat';
         letter-spacing: 0px;
         color: #fff;
     }
@@ -436,7 +436,7 @@
         color: rgb(165, 165, 165);
         font-size: 15px;
         line-height: 2;
-        font-family: 'Poppins', sans-serif !important;
+        font-family: 'Montserrat' sans-serif;
         text-align: justify;
     }
 
@@ -461,7 +461,7 @@
         font-weight: 900;
         margin-bottom: 30px;
         font-size: 30px;
-        font-family: 'Poppins', sans-serif !important;
+        font-family: 'Montserrat' sans-serif;
         letter-spacing: 0px;
         color: #000;
         position: absolute;
@@ -483,7 +483,7 @@
         font-weight: 900;
         margin-top: 0;
         font-size: 30px;
-        font-family: 'Poppins', sans-serif !important;
+        font-family: 'Montserrat' sans-serif;
         letter-spacing: 0px;
         color: #000;
         position: absolute;
@@ -508,7 +508,7 @@
         font-weight: 900;
         margin-top: 0;
         font-size: 40px;
-        font-family: 'Poppins', sans-serif !important;
+        font-family: 'Montserrat' sans-serif;
         letter-spacing: 0px;
         color: #000;
         position: absolute;

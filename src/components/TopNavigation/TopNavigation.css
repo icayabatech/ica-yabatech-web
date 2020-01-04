@@ -74,3 +74,11 @@
 .top-nav .top-link {
     color: #fff !important
 }
+
+@media (min-width: 320px) and (max-width: 767px){
+    .toggle {
+        color: #c5c5c5;
+        font-size: 30px;
+        text-align: right;
+    }
+}

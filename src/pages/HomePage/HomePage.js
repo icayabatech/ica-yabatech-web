@@ -70,7 +70,7 @@ const HomePage = () => {
                         </div>
                     </div><br/>
                     <div className="row">
-                        <div className="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+                        <div className="col-md-6 col-lg-6 col-sm-12 col-xs-12" style={{marginBottom: '20px'}}>
                             <h3>Vision</h3>
                             <span className="hoz-line"></span>
                             <p>Our Campus Ambassadors are passionate about building an active community of tech enthusiasts - 

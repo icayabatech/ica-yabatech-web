@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.0ae11fb4.chunk.css",
-    "main.js": "/static/js/main.480a0976.chunk.js",
-    "main.js.map": "/static/js/main.480a0976.chunk.js.map",
+    "main.css": "/static/css/main.9db2c187.chunk.css",
+    "main.js": "/static/js/main.e2bff0ee.chunk.js",
+    "main.js.map": "/static/js/main.e2bff0ee.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b51554c7.js",
     "runtime-main.js.map": "/static/js/runtime-main.b51554c7.js.map",
     "static/css/2.8d070772.chunk.css": "/static/css/2.8d070772.chunk.css",
     "static/js/2.6e242848.chunk.js": "/static/js/2.6e242848.chunk.js",
     "static/js/2.6e242848.chunk.js.map": "/static/js/2.6e242848.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.6443e1c2464c960e1f28247abd1674fe.js": "/precache-manifest.6443e1c2464c960e1f28247abd1674fe.js",
+    "precache-manifest.f660526806167d7c40e82392f5faeedf.js": "/precache-manifest.f660526806167d7c40e82392f5faeedf.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.8d070772.chunk.css.map": "/static/css/2.8d070772.chunk.css.map",
-    "static/css/main.0ae11fb4.chunk.css.map": "/static/css/main.0ae11fb4.chunk.css.map",
+    "static/css/main.9db2c187.chunk.css.map": "/static/css/main.9db2c187.chunk.css.map",
     "static/js/2.6e242848.chunk.js.LICENSE": "/static/js/2.6e242848.chunk.js.LICENSE",
     "static/media/androiddev.svg": "/static/media/androiddev.2941e138.svg",
     "static/media/PhotoCard.css": "/static/media/segun.231a2eb0.png",
@@ -33,7 +33,7 @@
     "static/js/runtime-main.b51554c7.js",
     "static/css/2.8d070772.chunk.css",
     "static/js/2.6e242848.chunk.js",
-    "static/css/main.0ae11fb4.chunk.css",
-    "static/js/main.480a0976.chunk.js"
+    "static/css/main.9db2c187.chunk.css",
+    "static/js/main.e2bff0ee.chunk.js"
   ]
 }
