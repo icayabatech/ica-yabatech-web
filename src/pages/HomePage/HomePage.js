@@ -35,7 +35,9 @@ const HomePage = () => {
                     <div className="col-lg-12 col-md-12 col-xs-12 col-sm-12">
                         <span className="hoz-line"></span>
                         <span className="welcome-text">Welcome to ICA - YABATECH</span>
-                        <h1 className="top-h1" style={{marginBottom: '0px'}}>Community</h1>
+                        <ScrollAnimation animateIn='flipInX'>
+                            <h1 className="top-h1" style={{marginBottom: '0px'}}>Community</h1>
+                        </ScrollAnimation>
                         <ScrollAnimation animateIn='bounceInRight' animateOut='bounceOutLeft'>
                             <h1 className="top-h1-2" style={{marginTop: '0px'}}>For Creators</h1>
                         </ScrollAnimation>
@@ -158,8 +160,10 @@ const HomePage = () => {
                     <div className="row">
                         <div className="col-md-6 col-lg-6 col-sm-12 col-xs-12">
                             <h2>Who can become a member?</h2>
-                            <p>The club is open to any student, ranging from novice develoeprs who are just starting to advance developers who want to further their skills. ICA is open for student to learn
-                            development skills, solve problem through technology and inspire them to become world class Developers.</p>
+                            <ScrollAnimation animateIn='flipInX'>
+                                <p>The club is open to any student, ranging from novice develoeprs who are just starting to advance developers who want to further their skills. ICA is open for student to learn
+                                development skills, solve problem through technology and inspire them to become world class Developers.</p>
+                            </ScrollAnimation>
                             <br/><button type="button" className="button btn btn-lg">Join the community</button>
                         </div>
                         <div className="col-md-6 col-lg-6 col-sm-12 col-xs-12">

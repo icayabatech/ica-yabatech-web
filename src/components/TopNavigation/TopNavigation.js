@@ -69,7 +69,7 @@ const TopNavigation = (props) => {
                             <NavLink style={{color: '#fff',textAlign:'center'}} 
                                 to="/members" activeClassName="active" tag={RRNavLink}>Members</NavLink> </NavItem>
                         <NavItem>
-                            <NavLink to="/register" className="top-nav-btn">Next Event</NavLink>
+                            <NavLink to="/events" className="top-nav-btn">Next Event</NavLink>
                         </NavItem>
                     </Nav>
                 </Collapse>

@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.874ce6b7.chunk.css",
-    "main.js": "/static/js/main.9b4d53c9.chunk.js",
-    "main.js.map": "/static/js/main.9b4d53c9.chunk.js.map",
+    "main.css": "/static/css/main.37db4687.chunk.css",
+    "main.js": "/static/js/main.800e915a.chunk.js",
+    "main.js.map": "/static/js/main.800e915a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b51554c7.js",
     "runtime-main.js.map": "/static/js/runtime-main.b51554c7.js.map",
     "static/css/2.8d070772.chunk.css": "/static/css/2.8d070772.chunk.css",
-    "static/js/2.6ba7abd7.chunk.js": "/static/js/2.6ba7abd7.chunk.js",
-    "static/js/2.6ba7abd7.chunk.js.map": "/static/js/2.6ba7abd7.chunk.js.map",
+    "static/js/2.cdcd0480.chunk.js": "/static/js/2.cdcd0480.chunk.js",
+    "static/js/2.cdcd0480.chunk.js.map": "/static/js/2.cdcd0480.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.84535a9747874882034de59715917508.js": "/precache-manifest.84535a9747874882034de59715917508.js",
+    "precache-manifest.8cc6b4e9aff9ec0f6a1d80dc00dbaa8d.js": "/precache-manifest.8cc6b4e9aff9ec0f6a1d80dc00dbaa8d.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.8d070772.chunk.css.map": "/static/css/2.8d070772.chunk.css.map",
-    "static/css/main.874ce6b7.chunk.css.map": "/static/css/main.874ce6b7.chunk.css.map",
-    "static/js/2.6ba7abd7.chunk.js.LICENSE": "/static/js/2.6ba7abd7.chunk.js.LICENSE",
+    "static/css/main.37db4687.chunk.css.map": "/static/css/main.37db4687.chunk.css.map",
+    "static/js/2.cdcd0480.chunk.js.LICENSE": "/static/js/2.cdcd0480.chunk.js.LICENSE",
     "static/media/androiddev.svg": "/static/media/androiddev.2941e138.svg",
     "static/media/MemberPage.css": "/static/media/passionate.6b300e0b.svg",
     "static/media/cloud.svg": "/static/media/cloud.4c74bc40.svg",
     "static/media/PhotoCard.css": "/static/media/segun.231a2eb0.png",
+    "static/media/hacktoberfest.png": "/static/media/hacktoberfest.27e926b6.png",
     "static/media/HomePage.css": "/static/media/technologies.2064142e.svg",
     "static/media/logo-black.svg": "/static/media/logo-black.2a40fc1e.svg",
     "static/media/machine.svg": "/static/media/machine.f00bf289.svg",
@@ -31,8 +32,8 @@
   "entrypoints": [
     "static/js/runtime-main.b51554c7.js",
     "static/css/2.8d070772.chunk.css",
-    "static/js/2.6ba7abd7.chunk.js",
-    "static/css/main.874ce6b7.chunk.css",
-    "static/js/main.9b4d53c9.chunk.js"
+    "static/js/2.cdcd0480.chunk.js",
+    "static/css/main.37db4687.chunk.css",
+    "static/js/main.800e915a.chunk.js"
   ]
 }

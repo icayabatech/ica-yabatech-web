@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9cd03b2bd68874e17f46b42f782b88b9",
+    "revision": "e569e7f021da922672f6e805efc25979",
     "url": "/index.html"
   },
   {
-    "revision": "7da91f8febe5fb6f282c",
+    "revision": "c9a635ea690ef1155cc4",
     "url": "/static/css/2.8d070772.chunk.css"
   },
   {
-    "revision": "9b8b7f078734914bb7f1",
-    "url": "/static/css/main.874ce6b7.chunk.css"
+    "revision": "95b94135ac4352cff9b5",
+    "url": "/static/css/main.37db4687.chunk.css"
   },
   {
-    "revision": "7da91f8febe5fb6f282c",
-    "url": "/static/js/2.6ba7abd7.chunk.js"
+    "revision": "c9a635ea690ef1155cc4",
+    "url": "/static/js/2.cdcd0480.chunk.js"
   },
   {
     "revision": "86afaa925e0f432774bf95b19b6933fb",
-    "url": "/static/js/2.6ba7abd7.chunk.js.LICENSE"
+    "url": "/static/js/2.cdcd0480.chunk.js.LICENSE"
   },
   {
-    "revision": "9b8b7f078734914bb7f1",
-    "url": "/static/js/main.9b4d53c9.chunk.js"
+    "revision": "95b94135ac4352cff9b5",
+    "url": "/static/js/main.800e915a.chunk.js"
   },
   {
     "revision": "882abaccd737f5494fc9",
@@ -46,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "acf9f60550ddb034b0998879cd2469c7",
     "url": "/static/media/destiny_ajakaiye.acf9f605.jpeg"
+  },
+  {
+    "revision": "27e926b630e52b87e592a82bb7b85c8d",
+    "url": "/static/media/hacktoberfest.27e926b6.png"
   },
   {
     "revision": "82953ac8af6f45cd4ff2b92a813309ea",

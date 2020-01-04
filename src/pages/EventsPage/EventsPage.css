@@ -1,0 +1,140 @@
+#events-page #next-event {
+    padding-top: 50px;
+}
+
+#events-page #next-event img {
+    width: 400px;
+    height: 300px;
+}
+
+#events-page #next-event h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 0;
+    font-size: 2.0vw;
+    font-family: 'Poppins', sans-serif !important;
+    letter-spacing: 0px;
+    color: #000;
+}
+
+#events-page #next-event p {
+    font-size: 13px !important;
+    line-height: 2;
+    font-family: 'Poppins', sans-serif !important;
+    color: rgb(31, 31, 31);
+    text-align: justify;
+    margin-bottom: 10px !important;
+}
+
+#events-page #next-event span {
+    display: block;
+    font-size: 13px;
+    color: rgb(31, 31, 31);
+    margin-bottom: 20px !important;
+}
+
+#events-page #next-event span .icon {
+    margin-right: 10px;
+}
+
+#events-page #next-event button {
+    background-color: #000;
+    border: 0;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 15px 50px 15px 50px;
+    border-radius: 0;
+    font-size: 15px;
+}
+
+#events-page #next-event button:hover {
+    color: #fff;
+}
+
+#events-page #content {
+    padding-top: 50px;
+}
+
+#events-page #content h1, #events-page #next-event h1 {
+    font-weight: 900;
+    margin-bottom: 20px;
+    margin-top: 0;
+    font-size: 2.5vw;
+    font-family: 'Poppins', sans-serif !important;
+    letter-spacing: 0px;
+    color: #000;
+}
+
+@media (min-width: 320px) and (max-width: 767px){
+    #events-page {
+        overflow-x: hidden !important;
+    }
+    
+    #events-page #next-event {
+        padding-top: 50px;
+    }
+    
+    #events-page #next-event img {
+        width: 250px;
+        height: 200px;
+    }
+    
+    #events-page #next-event h2 {
+        font-weight: bold;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        font-size: 20px;
+        font-family: 'Poppins', sans-serif !important;
+        letter-spacing: 0px;
+        color: #000;
+    }
+    
+    #events-page #next-event p {
+        font-size: 14px;
+        line-height: 2;
+        font-family: 'Poppins', sans-serif !important;
+        color: rgb(31, 31, 31);
+        text-align: justify;
+        margin-bottom: 10px !important;
+    }
+    
+    #events-page #next-event span {
+        display: block;
+        font-size: 12px;
+        color: rgb(31, 31, 31);
+        margin-bottom: 20px !important;
+        text-align: left !important;
+    }
+    
+    #events-page #next-event span .icon {
+        margin-right: 10px;
+    }
+    
+    #events-page #next-event button {
+        background-color: #000;
+        border: 0;
+        color: #fff;
+        text-transform: uppercase;
+        padding: 15px 50px 15px 50px;
+        border-radius: 0;
+        font-size: 15px;
+    }
+    
+    #events-page #next-event button:hover {
+        color: #fff;
+    }
+    
+    #events-page #content {
+        padding-top: 50px;
+    }
+    
+    #events-page #content h1, #events-page #next-event h1 {
+        font-weight: 900;
+        margin-bottom: 20px;
+        margin-top: 0;
+        font-size: 25px;
+        font-family: 'Poppins', sans-serif !important;
+        letter-spacing: 0px;
+        color: #000;
+    }
+}
