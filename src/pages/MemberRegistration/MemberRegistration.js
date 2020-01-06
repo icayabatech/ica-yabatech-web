@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Layout from '../../components/Layout/Layout';
 import InputField from '../../components/Form/InpuField/InputField';
 import ScrollAnimation from 'react-animate-on-scroll';
@@ -12,6 +12,11 @@ const MemberRegistration = () => {
     const [telephone, setTelephone] = useState("");
     const [role, setRole] = useState("");
     const [gender, setGender] = useState("");
+    
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        alert("We are currently working on this piece please check back. Thank you!");
+    };
 
     return(
         <Layout activeMenu="members">
@@ -31,7 +36,7 @@ const MemberRegistration = () => {
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-                                <form >
+                                <form onSubmit={handleSubmit}>
                                     <div className="row">
                                         <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12">
                                             <img src={Img} alt=".." />
@@ -110,7 +115,7 @@ const MemberRegistration = () => {
                                         </div>
                                     </div><hr/>
                                     <div className="form-group" style={{marginTop: '20px'}}>
-                                        <button type="button" className="btn btn-lg">Join</button>
+                                        <button type="submit" className="btn btn-lg">Join Now</button>
                                     </div>
                                 </form>
                             </div>
