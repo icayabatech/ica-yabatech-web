@@ -50,13 +50,20 @@ const TopNavigation = (props) => {
                 </div>
             </nav>
             <Navbar color="faded" className="mobile d-block d-md-none shadow-lg" style={{backgroundColor: '#000',padding: '20px'}}>
+                {/* <div className="row">
+                    <div className="col-xs-9 col-sm-9">
+                        <NavbarBrand to="/" className="mr-auto">
+                            <img src={Logo} alt="ica-yabatech-logo" width="200"/>
+                        </NavbarBrand>
+                    </div>
+                    <div className="col-xs-3 col-sm-3 text-right">
+                        <FaBars onClick={toggleNavbar} className="mr-2 mt-4 text-right toggle" />
+                    </div>
+                </div> */}
                 <NavbarBrand to="/" className="mr-auto">
                     <img src={Logo} alt="ica-yabatech-logo" width="200"/>
                 </NavbarBrand>
-                <div className="pull-right text-right">
-                    <FaBars onClick={toggleNavbar} className="mr-2 mt-4 toggle" />
-                </div>
-                
+                <FaBars onClick={toggleNavbar} className="mr-2 mt-4 text-right pull-right toggle" />
                 <Collapse isOpen={!collapsed} navbar>
                     <Nav navbar>
                         <NavItem style={{borderBottom: '1px solid #fff'}}>
@@ -72,7 +79,7 @@ const TopNavigation = (props) => {
                             <NavLink style={{color: '#fff',textAlign:'center'}} 
                                 to="/members" activeClassName="active" tag={RRNavLink}>Members</NavLink> </NavItem>
                         <NavItem>
-                            <NavLink to="/events" className="top-nav-btn">Next Event</NavLink>
+                            <NavLink to="/events" activeClassName="active" tag={RRNavLink} className="top-nav-btn">Next Event</NavLink>
                         </NavItem>
                     </Nav>
                 </Collapse>
