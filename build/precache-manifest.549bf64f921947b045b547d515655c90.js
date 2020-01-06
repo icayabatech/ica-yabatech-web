@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "002434ec2704850fea78b80a58fa5619",
+    "revision": "5cdb236fe041cefbba41454788fb9ee3",
     "url": "/index.html"
   },
   {
-    "revision": "954a6334643e5d0b2a81",
+    "revision": "6c087ac2b2faa0df4244",
     "url": "/static/css/2.8d070772.chunk.css"
   },
   {
-    "revision": "23f774cf26e3c7824ac2",
-    "url": "/static/css/main.a8bf7e1a.chunk.css"
+    "revision": "efcf9c8ea65fceccdad0",
+    "url": "/static/css/main.9a04bd8c.chunk.css"
   },
   {
-    "revision": "954a6334643e5d0b2a81",
-    "url": "/static/js/2.02a3c93b.chunk.js"
+    "revision": "6c087ac2b2faa0df4244",
+    "url": "/static/js/2.2cde9414.chunk.js"
   },
   {
     "revision": "86afaa925e0f432774bf95b19b6933fb",
-    "url": "/static/js/2.02a3c93b.chunk.js.LICENSE"
+    "url": "/static/js/2.2cde9414.chunk.js.LICENSE"
   },
   {
-    "revision": "23f774cf26e3c7824ac2",
-    "url": "/static/js/main.5c56cb58.chunk.js"
+    "revision": "efcf9c8ea65fceccdad0",
+    "url": "/static/js/main.d25e5d0b.chunk.js"
   },
   {
     "revision": "882abaccd737f5494fc9",
@@ -52,8 +52,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/destiny_ajakaiye.acf9f605.jpeg"
   },
   {
-    "revision": "27e926b630e52b87e592a82bb7b85c8d",
-    "url": "/static/media/hacktoberfest.27e926b6.png"
+    "revision": "6a874a971ef073218a053473709c25df",
+    "url": "/static/media/emmanella.6a874a97.jpg"
   },
   {
     "revision": "82953ac8af6f45cd4ff2b92a813309ea",
@@ -70,6 +70,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f00bf289640ae4f7f7de06e4924d414e",
     "url": "/static/media/machine.f00bf289.svg"
+  },
+  {
+    "revision": "19894630f01c8616844087c5b882cd87",
+    "url": "/static/media/ope.19894630.jpg"
   },
   {
     "revision": "6b300e0b7c982a14067adf03713196a8",
@@ -114,6 +118,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2064142ed4d3f753eb17e6238fd0c4db",
     "url": "/static/media/technologies.2064142e.svg"
+  },
+  {
+    "revision": "f74ca9a1823bdd2e1c24ec6077821929",
+    "url": "/static/media/ui-ux-design.f74ca9a1.jpg"
   },
   {
     "revision": "27a982984bf5caf95740ef1c1cb80d67",

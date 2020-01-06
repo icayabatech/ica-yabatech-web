@@ -4,25 +4,25 @@
 }
 
 .destiny {
-    background-image: url('../../assets/images/destiny_ajakaiye.jpeg');
+    background-image: url('../../assets/images/team/destiny_ajakaiye.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .segun {
-    background-image: url('../../assets/images/segun.png');
+    background-image: url('../../assets/images/team/segun.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .ope {
-    background-image: url('../../assets/images/avatar.png');
+    background-image: url('../../assets/images/team/ope.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .daniel {
-    background-image: url('../../assets/images/daniel.png');
+    background-image: url('../../assets/images/team/daniel.png');
     background-size: cover;
     background-repeat: no-repeat;
 }

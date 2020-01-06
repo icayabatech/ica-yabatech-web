@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Layout from '../../components/Layout/Layout';
 import EventCard from '../../components/EventCard/EventCard';
-import Img2 from '../../assets/images/hacktoberfest.png';
+import Img2 from '../../assets/images/events/ui-ux-design.jpg';
 import ScrollAnimation from 'react-animate-on-scroll';
 import './EventsPage.css';
 import { FaCalendar, FaClock } from 'react-icons/fa';
@@ -44,14 +44,14 @@ const EventsPage = () => {
                                 </ScrollAnimation>
                             </div>
                             <div className="col-lg-7 col-md-7 col-sm-12 col-xs-12">
-                                <h2>HacktoberFest</h2>
+                                <h2>Getting Started With UI/UX Design</h2>
                                 <ScrollAnimation animateIn='flipInX'>
-                                    <p>HacktoberFest is open to everyone in our global community. Whether you're a developer, student learning to code, event host, or company or any size, you can help drive growth of open source
-                                and make positive contributions to an ever-growing community. All backgrounds and skill levels are encouraged to complete the challenge.</p>
+                                    <p>The Ingressive Campus Ambassadors Yabatech Chapter will be having an introductory section on UI/UX design
+                                     with Oluwadamilola Soyombo who is a UI/UX design expert and mentor.</p>
                                 </ScrollAnimation>
                                 <span>
-                                    <FaCalendar className="icon" /> {" "} 11th October, 2019 {" "} 
-                                    <FaClock className="icon" /> {" "} 2:00pm - 4:00pm
+                                    <FaCalendar className="icon" /> {" "} 11th January, 2019 {" "} 
+                                    <FaClock className="icon" /> {" "} 8:00pm - 9:00pm
                                 </span>
                                 <button className="btn btn-lg" type="button">Register</button>
                             </div>

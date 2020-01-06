@@ -1,11 +1,12 @@
 import React from 'react';
 import Layout from '../../components/Layout/Layout';
 import TeamCard from '../../components/TeamCard/TeamCard';
-import Img1 from '../../assets/images/destiny_ajakaiye.jpeg';
+import Img1 from '../../assets/images/team/destiny_ajakaiye.jpeg';
 import ScrollAnimation from 'react-animate-on-scroll';
-import Img2 from '../../assets/images/segun.png';
-import Img3 from '../../assets/images/daniel.png';
-import Img4 from '../../assets/images/avatar.png'
+import Img2 from '../../assets/images/team/segun.png';
+import Img3 from '../../assets/images/team/daniel.png';
+import Img4 from '../../assets/images/team/ope.jpg';
+import Img5 from '../../assets/images/team/emmanella.jpg';
 import './TeamPage.css';
 
 const TeamPage = () => {
@@ -31,9 +32,9 @@ const TeamPage = () => {
                                 name="Destiny Ajakaiye" 
                                 position="Software Developer"
                                 portfolio={{
-                                    twitter: 'https://twitter.com',
-                                    linkedin: 'https://linkedin.com',
-                                    github: 'https://github.com'
+                                    twitter: 'https://twitter.com/destinyajax',
+                                    linkedin: 'https://linkedin.com/in/destinyajax',
+                                    github: 'https://github.com/destinyajax'
                                 }}
                             />
                             <TeamCard 
@@ -51,9 +52,9 @@ const TeamPage = () => {
                                 name="Danile Ayoola" 
                                 position="Frontend Developer"
                                 portfolio={{
-                                    twitter: 'https://twitter.com',
+                                    twitter: 'https://twitter.com/iamayooladaniel',
                                     linkedin: 'https://linkedin.com',
-                                    github: 'https://github.com'
+                                    github: 'https://gitHub.com/dalexz4'
                                 }}
                             />
                             <TeamCard 
@@ -61,9 +62,19 @@ const TeamPage = () => {
                                 name="Adeniran Opeyemi" 
                                 position="UI/UX Designer"
                                 portfolio={{
-                                    twitter: 'https://twitter.com',
-                                    linkedin: 'https://linkedin.com',
-                                    github: 'https://github.com'
+                                    twitter: 'https://twitter.com/thauiguy?s=09',
+                                    linkedin: 'https://www.linkedin.com/in/adeniran-opeyemi-adewale-276650ab/',
+                                    github: 'https://github.com/horpey'
+                                }}
+                            />
+                            <TeamCard 
+                                image={Img5} 
+                                name="Abubakar Emmanuella Faridat " 
+                                position="Frontend Developer"
+                                portfolio={{
+                                    twitter: 'https://twitter.com/manuellabubakar',
+                                    linkedin: 'linkedin.com/in/emmanuella-faridat-abubakar',
+                                    github: 'https://github.com/emmanuellabubakar'
                                 }}
                             />
                         </div>

@@ -14,9 +14,9 @@ export const DestinyCard = () => {
                                 <h4>Destiny Ajakaiye</h4>
                                 <p style={{fontSize: 12}}>Software Developer</p>
                                 <p>
-                                    <a href="https://twitter.com" className="social-link"><FaTwitter /></a>
-                                    <a href="https://github.com" className="social-link"><FaGithub /></a>
-                                    <a href="https://linkedin.com" className="social-link"><FaLinkedin /></a>
+                                    <a href="https://twitter.com/destinyajax" rel="noopener noreferrer" className="social-link" target="_blank"><FaTwitter /></a>
+                                    <a href="https://github.com/destinyajax" rel="noopener noreferrer" className="social-link" target="_blank"><FaGithub /></a>
+                                    <a href="https://linkedin.com/in/destinyajax" rel="noopener noreferrer" className="social-link" target="_blank"><FaLinkedin /></a>
                                 </p>
                             </ScrollAnimation>
                         </div>
@@ -38,9 +38,9 @@ export const SegunCard = () => {
                                 <h4>Segun Olumide</h4>
                                 <p style={{fontSize: 12}}>Frontend Developer</p>
                                 <p>
-                                    <a href="https://twitter.com" className="social-link"><FaTwitter /></a>
-                                    <a href="https://github.com" className="social-link"><FaGithub /></a>
-                                    <a href="https://linkedin.com" className="social-link"><FaLinkedin /></a>
+                                    <a href="https://twitter.com" className="social-link" rel="noopener noreferrer" target="_blank"><FaTwitter /></a>
+                                    <a href="https://gitHub.com" className="social-link" rel="noopener noreferrer" target="_blank"><FaGithub /></a>
+                                    <a href="https://linkedin.com" className="social-link" rel="noopener noreferrer" target="_blank"><FaLinkedin /></a>
                                 </p>
                             </ScrollAnimation>
                         </div>
@@ -62,9 +62,9 @@ export const DanielCard = () => {
                                 <h4>Ayoola Daniel</h4>
                                 <p style={{fontSize: 12}}>SEO Specialist</p>
                                 <p>
-                                    <a href="https://twitter.com" className="social-link"><FaTwitter /></a>
-                                    <a href="https://github.com" className="social-link"><FaGithub /></a>
-                                    <a href="https://linkedin.com" className="social-link"><FaLinkedin /></a>
+                                    <a href="https://twitter.com/iamayooladaniel" className="social-link" rel="noopener noreferrer" target="_blank"><FaTwitter /></a>
+                                    <a href="https://gitHub.com/dalexz4" className="social-link" rel="noopener noreferrer" target="_blank"><FaGithub /></a>
+                                    <a href="https://linkedin.com" className="social-link" rel="noopener noreferrer" target="_blank"><FaLinkedin /></a>
                                 </p>
                             </ScrollAnimation>
                         </div>
@@ -86,9 +86,9 @@ export const OpeCard = () => {
                                 <h4>Adeniran Opeyemi</h4>
                                 <p style={{fontSize: 12}}>UI/UX Developer</p>
                                 <p>
-                                    <a href="https://twitter.com" className="social-link"><FaTwitter /></a>
-                                    <a href="https://github.com" className="social-link"><FaGithub /></a>
-                                    <a href="https://linkedin.com" className="social-link"><FaLinkedin /></a>
+                                    <a href="https://twitter.com/thauiguy?s=09" className="social-link" rel="noopener noreferrer" target="_blank"><FaTwitter /></a>
+                                    <a href="https://github.com/horpey" className="social-link" rel="noopener noreferrer" target="_blank"><FaGithub /></a>
+                                    <a href="https://www.linkedin.com/in/adeniran-opeyemi-adewale-276650ab/" rel="noopener noreferrer" className="social-link" target="_blank"><FaLinkedin /></a>
                                 </p>
                             </ScrollAnimation>
                         </div>

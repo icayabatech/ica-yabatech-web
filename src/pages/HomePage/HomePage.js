@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from "react-router-dom";
 import Slider from "react-slick";
 import Layout from '../../components/Layout/Layout';
 import Icon1 from '../../assets/images/webdev.svg';
@@ -41,7 +42,9 @@ const HomePage = () => {
                         <ScrollAnimation animateIn='bounceInRight' animateOut='bounceOutLeft'>
                             <h1 className="top-h1-2" style={{marginTop: '0px'}}>For Creators</h1>
                         </ScrollAnimation>
-                        <button type="button" className="top-btn btn btn-lg">Become a member</button>
+                        <Link to="/members-registration">
+                            <button type="button" className="top-btn btn btn-lg">Become a member</button>
+                        </Link>
                     </div>
                 </div>
             </section>
@@ -160,7 +163,10 @@ const HomePage = () => {
                                 <p>The club is open to any student, ranging from novice develoeprs who are just starting to advance developers who want to further their skills. ICA is open for student to learn
                                 development skills, solve problem through technology and inspire them to become world class Developers.</p>
                             </ScrollAnimation>
-                            <br/><button type="button" className="button btn btn-lg">Join the community</button>
+                            <br/>
+                            <Link to="/members-registration">
+                                <button type="button" className="button btn btn-lg">Join the community</button>
+                            </Link>
                         </div>
                         <div className="col-md-6 col-lg-6 col-sm-12 col-xs-12">
                             <div className="col-md-12 col-lg-12 col-sm-12 col-xs-12">

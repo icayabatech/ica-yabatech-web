@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.a8bf7e1a.chunk.css",
-    "main.js": "/static/js/main.5c56cb58.chunk.js",
-    "main.js.map": "/static/js/main.5c56cb58.chunk.js.map",
+    "main.css": "/static/css/main.9a04bd8c.chunk.css",
+    "main.js": "/static/js/main.d25e5d0b.chunk.js",
+    "main.js.map": "/static/js/main.d25e5d0b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b51554c7.js",
     "runtime-main.js.map": "/static/js/runtime-main.b51554c7.js.map",
     "static/css/2.8d070772.chunk.css": "/static/css/2.8d070772.chunk.css",
-    "static/js/2.02a3c93b.chunk.js": "/static/js/2.02a3c93b.chunk.js",
-    "static/js/2.02a3c93b.chunk.js.map": "/static/js/2.02a3c93b.chunk.js.map",
+    "static/js/2.2cde9414.chunk.js": "/static/js/2.2cde9414.chunk.js",
+    "static/js/2.2cde9414.chunk.js.map": "/static/js/2.2cde9414.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.7a8381391f8d62587d20ba425fe49b81.js": "/precache-manifest.7a8381391f8d62587d20ba425fe49b81.js",
+    "precache-manifest.549bf64f921947b045b547d515655c90.js": "/precache-manifest.549bf64f921947b045b547d515655c90.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.8d070772.chunk.css.map": "/static/css/2.8d070772.chunk.css.map",
-    "static/css/main.a8bf7e1a.chunk.css.map": "/static/css/main.a8bf7e1a.chunk.css.map",
-    "static/js/2.02a3c93b.chunk.js.LICENSE": "/static/js/2.02a3c93b.chunk.js.LICENSE",
+    "static/css/main.9a04bd8c.chunk.css.map": "/static/css/main.9a04bd8c.chunk.css.map",
+    "static/js/2.2cde9414.chunk.js.LICENSE": "/static/js/2.2cde9414.chunk.js.LICENSE",
     "static/media/androiddev.svg": "/static/media/androiddev.2941e138.svg",
-    "static/media/PhotoCard.css": "/static/media/segun.231a2eb0.png",
+    "static/media/avatar.png": "/static/media/avatar.2a42d7b2.png",
     "static/media/MemberRegistration.css": "/static/media/passionate.6b300e0b.svg",
     "static/media/cloud.svg": "/static/media/cloud.4c74bc40.svg",
-    "static/media/hacktoberfest.png": "/static/media/hacktoberfest.27e926b6.png",
+    "static/media/PhotoCard.css": "/static/media/segun.231a2eb0.png",
+    "static/media/emmanella.jpg": "/static/media/emmanella.6a874a97.jpg",
     "static/media/HomePage.css": "/static/media/technologies.2064142e.svg",
     "static/media/logo-black.svg": "/static/media/logo-black.2a40fc1e.svg",
     "static/media/machine.svg": "/static/media/machine.f00bf289.svg",
@@ -27,13 +28,14 @@
     "static/media/pic-3.png": "/static/media/pic-3.1105c298.png",
     "static/media/pic-4.png": "/static/media/pic-4.1570ed5e.png",
     "static/media/slick-theme.css": "/static/media/slick.f97e3bbf.svg",
+    "static/media/ui-ux-design.jpg": "/static/media/ui-ux-design.f74ca9a1.jpg",
     "static/media/webdev.svg": "/static/media/webdev.27a98298.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.b51554c7.js",
     "static/css/2.8d070772.chunk.css",
-    "static/js/2.02a3c93b.chunk.js",
-    "static/css/main.a8bf7e1a.chunk.css",
-    "static/js/main.5c56cb58.chunk.js"
+    "static/js/2.2cde9414.chunk.js",
+    "static/css/main.9a04bd8c.chunk.css",
+    "static/js/main.d25e5d0b.chunk.js"
   ]
 }
