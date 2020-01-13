@@ -10,8 +10,6 @@ const InputField = props => {
                     <label>{props.label}</label>
                     <select 
                         className="form-control input-field" 
-                        onChange={props.onchangeinput}
-                        value={props.value}
                         {...props}
                     >
                         <option value=""></option>
@@ -29,9 +27,7 @@ const InputField = props => {
                 <div className="form-group input-form">
                     <label>{props.label}</label>
                     <input 
-                        type={props.type} className="form-control input-field" 
-                        value={props.value}
-                        onChange={props.onchangeinput}
+                        className="form-control input-field" 
                         {...props}
                     />
                 </div>
@@ -41,9 +37,6 @@ const InputField = props => {
 }
 
 InputField.propTypes = {
-    type: PropTypes.string.isRequired,
-    value: PropTypes.string.isRequired,
-    onchangeinput: PropTypes.func.isRequired,
     label: PropTypes.string.isRequired,
     options: PropTypes.array
 }

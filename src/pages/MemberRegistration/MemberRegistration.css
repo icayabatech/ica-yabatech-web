@@ -50,6 +50,18 @@
     color: #fff;
 }
 
+.input-form input, .input-form select {
+    border: 1px solid #000;
+    border-radius: 0;
+    height: 50px;
+    font-size: 18px;
+}
+
+.input-form input:focus, .input-form select:focus {
+    border: 1px solid #000;
+    box-shadow: unset;
+}
+
 @media (min-width: 320px) and (max-width: 767px){
     #members-registration #watermark {
         background-image: url('../../assets/images/campus_amb.svg');
