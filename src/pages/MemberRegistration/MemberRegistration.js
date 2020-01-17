@@ -24,7 +24,10 @@ class MemberRegistration extends Component {
             linkedInUrl: '',
             githubUrl: '',
             loading: false,
-            show: false
+            show: false,
+            type: 'success',
+            message: '',
+            title: ''
         };
     }
 
@@ -74,10 +77,23 @@ class MemberRegistration extends Component {
                 twitterUrl: this.state.twitterUrl,
                 telephone: this.state.telephone
             };
-            const {data:{message}} = await uploadPostFunc('/member/create', payload);
+            const {data:{message,error}} = await uploadPostFunc('/member/create', payload);
             if(message) {
-                this.setState({show: true});
+                this.setState({
+                    show: true,
+                    type: 'success',
+                    message: message,
+                    title: "Successful"
+                });
                 this.setState({firstName: "",lastName: "", email: "",role: "",gender: "",telephone: "",linkedInUrl: "",twitterUrl:"",githubUrl: ""});
+            }
+            if(error) {
+                this.setState({
+                    show: true,
+                    type: 'error',
+                    message: message,
+                    title: 'Error'
+                });
             }
         } catch (err) {
             console.log(err)
@@ -108,9 +124,9 @@ class MemberRegistration extends Component {
                                 <div className="col-lg-8 col-md-8 col-sm-12 col-xs-12">
                                     <SweetAlert
                                         show={this.state.show}
-                                        title="Successful"
-                                        type="success"
-                                        text="Registration submitted successfully"
+                                        title={this.state.title}
+                                        type={this.state.type}
+                                        text={this.state.message}
                                         onConfirm={() => this.setState({ show: false })}
                                     />
                                     <form onSubmit={this.handleSubmit}>
