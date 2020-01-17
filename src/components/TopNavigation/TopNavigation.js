@@ -63,7 +63,7 @@ const TopNavigation = (props) => {
                 <NavbarBrand to="/" className="mr-auto">
                     <img src={Logo} alt="ica-yabatech-logo" width="200"/>
                 </NavbarBrand>
-                <FaBars onClick={toggleNavbar} className="mr-2 mt-4 text-right pull-right toggle" />
+                <span className="text-right pull-right" style={{display: 'inline-block'}}><FaBars onClick={toggleNavbar} className="mr-2 mt-4 toggle" /></span>
                 <Collapse isOpen={!collapsed} navbar>
                     <Nav navbar>
                         <NavItem style={{borderBottom: '1px solid #fff'}}>
