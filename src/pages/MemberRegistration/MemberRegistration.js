@@ -116,8 +116,10 @@ class MemberRegistration extends Component {
                                     <form onSubmit={this.handleSubmit}>
                                         <div className="row">
                                             <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                                                {this.state.previewImage === '' && (<img src={Img} alt=".." />)}
-                                                {this.state.previewImage !== '' && (<img src={this.state.previewImage} alt=".." style={{borderRadius: '100%'}}/>)}
+                                                <p>
+                                                    {this.state.previewImage === '' && (<img src={Img} alt=".." />)}
+                                                    {this.state.previewImage !== '' && (<img src={this.state.previewImage} alt=".." style={{borderRadius: '100%'}}/>)}
+                                                </p>
                                             </div>
                                             <div className="col-lg-9 col-md-9 col-sm-12 col-xs-12 file-upload">
                                                 <div className="form-group">

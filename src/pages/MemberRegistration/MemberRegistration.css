@@ -105,7 +105,7 @@
         color: #000;
     }
     
-    #members-registration .join-section button {
+    #members-registration  #content form button {
         background-color: #000;
         border: 0;
         color: #fff;
@@ -113,9 +113,29 @@
         padding: 15px 50px 15px 50px;
         border-radius: 0;
         font-size: 15px;
+        width: 100%;
     }
     
-    #members-registration .join-section button:hover {
+    #members-registration  #content form button:hover {
         color: #fff;
+    }
+
+    #members-registration #content {
+        padding-top: 50px;
+    }
+    
+    #members-registration #content form img {
+        width: 150px;
+        height: 150px;
+    }
+    
+    #members-registration #content form .file-upload {
+        padding-top: 30px;
+        text-align: center;
+    }
+    
+    #members-registration #content form .file-upload p {
+        font-size: 15px;
+        text-align: center;
     }
 }
