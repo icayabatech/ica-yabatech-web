@@ -38,9 +38,9 @@ export const SegunCard = () => {
                                 <h4>Segun Olumide</h4>
                                 <p style={{fontSize: 12}}>Frontend Developer</p>
                                 <p>
-                                    <a href="https://twitter.com" className="social-link" rel="noopener noreferrer" target="_blank"><FaTwitter /></a>
-                                    <a href="https://gitHub.com" className="social-link" rel="noopener noreferrer" target="_blank"><FaGithub /></a>
-                                    <a href="https://linkedin.com" className="social-link" rel="noopener noreferrer" target="_blank"><FaLinkedin /></a>
+                                    <a href="https://twitter.com/wonexo" className="social-link" rel="noopener noreferrer" target="_blank"><FaTwitter /></a>
+                                    <a href="https://gitHub.com/wonexo" className="social-link" rel="noopener noreferrer" target="_blank"><FaGithub /></a>
+                                    <a href="https://linkedin.com/in/wonexo" className="social-link" rel="noopener noreferrer" target="_blank"><FaLinkedin /></a>
                                 </p>
                             </ScrollAnimation>
                         </div>
@@ -64,7 +64,7 @@ export const DanielCard = () => {
                                 <p>
                                     <a href="https://twitter.com/iamayooladaniel" className="social-link" rel="noopener noreferrer" target="_blank"><FaTwitter /></a>
                                     <a href="https://gitHub.com/dalexz4" className="social-link" rel="noopener noreferrer" target="_blank"><FaGithub /></a>
-                                    <a href="https://linkedin.com" className="social-link" rel="noopener noreferrer" target="_blank"><FaLinkedin /></a>
+                                    <a href="https://linkedin.com/in/ayoola-olugbenga-daniel/" className="social-link" rel="noopener noreferrer" target="_blank"><FaLinkedin /></a>
                                 </p>
                             </ScrollAnimation>
                         </div>

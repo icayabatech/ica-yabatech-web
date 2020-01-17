@@ -19,7 +19,7 @@ const FooterComponent = () => {
                     </div>
                     <div className="col-lg-6 col-xs-12 col-sm-12">
                         <p>
-                            <a href="https://twitter.com" className="social-link"><FaTwitter className="icon"/></a>
+                            <a href="https://twitter.com/IYabatech" className="social-link"><FaTwitter className="icon"/></a>
                             <a href="https://github.com" className="social-link"><FaGithub /></a>
                             <a href="https://linkedin.com" className="social-link"><FaSlack /></a>
                             <a href="https://linkedin.com" className="social-link"><FaWhatsapp /></a>

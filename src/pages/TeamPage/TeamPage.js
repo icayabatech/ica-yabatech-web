@@ -43,17 +43,17 @@ const TeamPage = () => {
                                 position="Frontend Developer"
                                 portfolio={{
                                     twitter: 'https://twitter.com',
-                                    linkedin: 'https://linkedin.com',
-                                    github: 'https://github.com'
+                                    linkedin: 'https://linkedin.com/in/wonexo',
+                                    github: 'https://github.com/wonexo'
                                 }}
                             />
                             <TeamCard 
                                 image={Img3} 
-                                name="Danile Ayoola" 
+                                name="Daniel Ayoola" 
                                 position="Frontend Developer"
                                 portfolio={{
                                     twitter: 'https://twitter.com/iamayooladaniel',
-                                    linkedin: 'https://linkedin.com',
+                                    linkedin: 'https://linkedin.com/in/ayoola-olugbenga-daniel',
                                     github: 'https://gitHub.com/dalexz4'
                                 }}
                             />

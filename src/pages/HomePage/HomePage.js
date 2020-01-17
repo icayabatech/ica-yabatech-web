@@ -73,11 +73,11 @@ const HomePage = () => {
                         </div>
                     </div><br/>
                     <div className="row">
-                        <div className="col-md-6 col-lg-6 col-sm-12 col-xs-12" style={{marginBottom: '20px'}}>
-                            <h3>Vision</h3>
+                        <div className="col-md-6 col-lg-6 col-sm-12 col-xs-12" style={{marginBottom: '30px'}}>
+                            <h3>Vision(Yabatech)</h3>
                             <span className="hoz-line"></span>
-                            <p>Our Campus Ambassadors are passionate about building an active community of tech enthusiasts - 
-                            including designers and developers - and are committed to creating a positive experience for members of their community.</p>
+                            <p>Our vision is to have the largest community of Software Developers and Designers in Africa with the common aim of making 
+                            humanity better using technology.</p>
                         </div>
                         <div className="col-md-6 col-lg-6 col-sm-12 col-xs-12">
                             <h3>Mission</h3>
