@@ -77,7 +77,7 @@ class MemberRegistration extends Component {
                 twitterUrl: this.state.twitterUrl,
                 telephone: this.state.telephone
             };
-            const {data:{message,error}} = await uploadPostFunc('/member/create', payload);
+            const {data:{message}} = await uploadPostFunc('/member/create', payload);
             if(message) {
                 this.setState({
                     show: true,
@@ -87,6 +87,7 @@ class MemberRegistration extends Component {
                 });
                 this.setState({firstName: "",lastName: "", email: "",role: "",gender: "",telephone: "",linkedInUrl: "",twitterUrl:"",githubUrl: ""});
             }
+        } catch ({response:{data:{message,error}}}) {
             if(error) {
                 this.setState({
                     show: true,
@@ -95,8 +96,6 @@ class MemberRegistration extends Component {
                     title: 'Error'
                 });
             }
-        } catch (err) {
-            console.log(err)
         } finally {
             this.setState({loading: false});
         }
@@ -276,7 +275,7 @@ class MemberRegistration extends Component {
                                         </div><hr/>
                                         <div className="form-group" style={{marginTop: '20px'}}>
                                             <button type="submit" className="btn btn-lg">
-                                                {this.state.loading && (<span><i className="fa fa-spinner fa-spin"></i></span>)}
+                                                {this.state.loading && (<span><i className="fa fa-spinner fa-spin"></i> Loading...</span>)}
                                                 {!this.state.loading && "Join Now"}
                                             </button>
                                         </div>
