@@ -47,7 +47,7 @@ const postFunc = (path, payload) => {
 const uploadPostFunc = (path, payload) => {
     return new Promise((resolve, reject) => {
         axios.post(`${baseURL}${path}`, payload, {
-            'Content-Type' : 'multipart/form-data'
+            "Content-Type" : "application/x-www-form-urlencoded"
         })
         .then(res => {
             return resolve({ ...res });

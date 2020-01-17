@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
+import SweetAlert from 'sweetalert-react';
 import Layout from '../../components/Layout/Layout';
 import ScrollAnimation from 'react-animate-on-scroll';
 import {uploadPostFunc} from '../../services';
 import Img from '../../assets/images/avatar.png';
 import './MemberRegistration.css';
+import 'sweetalert/dist/sweetalert.css';
 
 class MemberRegistration extends Component {
+    
     constructor(props) {
         super(props);
         this.state = {
@@ -20,7 +23,8 @@ class MemberRegistration extends Component {
             twitterUrl: '',
             linkedInUrl: '',
             githubUrl: '',
-            loading: false
+            loading: false,
+            show: false
         };
     }
 
@@ -28,10 +32,7 @@ class MemberRegistration extends Component {
         const target = event.target;
         const value = target.value;
         const name = target.name;
-    
-        this.setState({
-            [name]: value
-        });
+        this.setState({[name]: value});
     };
 
     onFileUpload = e => {
@@ -61,19 +62,23 @@ class MemberRegistration extends Component {
         e.preventDefault();
         this.setState({loading: true});
         try {  
-            let formData = new FormData();
-            formData.append("firstName", this.state.firstName);
-            formData.append("lastName", this.state.lastName);
-            formData.append("email", this.state.email);
-            formData.append("image", this.state.previewImage);
-            formData.append("role", this.state.role);
-            formData.append("twitterUrl", this.state.twitterUrl);
-            formData.append("githubUrl", this.state.githubUrl);
-            formData.append("linkedinUrl", this.state.linkedInUrl);
-            formData.append("telephone", this.state.telephone);
-            const {data: {message}} = await uploadPostFunc('/member/create', formData);
-            
-            if(message) alert(message);
+            const payload = {
+                firstName: this.state.firstName,
+                lastName: this.state.lastName,
+                email: this.state.email,
+                imageUrl: this.state.previewImage,
+                role: this.state.role,
+                gender: this.state.gender,
+                githubUrl: this.state.githubUrl,
+                linkedinUrl: this.state.linkedInUrl,
+                twitterUrl: this.state.twitterUrl,
+                telephone: this.state.telephone
+            };
+            const {data:{message}} = await uploadPostFunc('/member/create', payload);
+            if(message) {
+                this.setState({show: true});
+                this.setState({firstName: "",lastName: "", email: "",role: "",gender: "",telephone: "",linkedInUrl: "",twitterUrl:"",githubUrl: ""});
+            }
         } catch (err) {
             console.log(err)
         } finally {
@@ -101,6 +106,13 @@ class MemberRegistration extends Component {
                         <div className="container">
                             <div className="row">
                                 <div className="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                                    <SweetAlert
+                                        show={this.state.show}
+                                        title="Successful"
+                                        type="success"
+                                        text="Registration submitted successfully"
+                                        onConfirm={() => this.setState({ show: false })}
+                                    />
                                     <form onSubmit={this.handleSubmit}>
                                         <div className="row">
                                             <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12">
@@ -167,6 +179,8 @@ class MemberRegistration extends Component {
                                                         className="form-control"
                                                         onChange={this.handleInputChange}
                                                         placeholder="0800001111"
+                                                        maxLength="11"
+                                                        minLength="11"
                                                         required
                                                     />
                                                 </div>
